@@ -3,6 +3,7 @@ package models;
 public abstract class Conteudo {
     private String titulo;
     private String descricao;
+    protected static final double XP_PADRADO=10.0;
 
     public String getTitulo() {
         return titulo;
@@ -19,4 +20,6 @@ public abstract class Conteudo {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
+
+    public abstract double calcularXp();
 }
