@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1492edba-39d5-4d3e-9163-da5a26d3be22" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OlaMundo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/Dev.java" beforeDir="false" afterPath="$PROJECT_DIR$/models/Dev.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Plataforma_ensino_POO/OlaMundo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Plataforma_ensino_POO/models/Bootcamp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Plataforma_ensino_POO/models/Bootcamp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Plataforma_ensino_POO/models/Conteudo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Plataforma_ensino_POO/models/Conteudo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Plataforma_ensino_POO/models/Curso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Plataforma_ensino_POO/models/Curso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Plataforma_ensino_POO/models/Dev.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Plataforma_ensino_POO/models/Dev.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Plataforma_ensino_POO/models/Mentoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Plataforma_ensino_POO/models/Mentoria.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "Application.OlaMundo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",

@@ -48,7 +48,8 @@ public class Main {
         Dev dev1 = new Dev("Kaunda");
         Dev dev2 = new Dev("João");
         dev1.inscrever(java);
-        dev1.inscrever(java);
+        dev1.inscrever(bootcamp);
+
 
 
     }

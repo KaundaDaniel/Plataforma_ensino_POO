@@ -16,10 +16,15 @@ public class Dev {
         }
     }
     public void inscrever(Bootcamp bootCamp){
-        for(Conteudo conteudo : bootCamp.getListaConteudoEducacional()
-        ){
-            inscrever(conteudo);
-        }
+        // Adicionando todos os conteúdos do bootcamp à lista de inscrição
+//        for(Conteudo conteudo : bootCamp.getDevsInscritos()
+//        for(Conteudo conteudo : bootCamp.getListaConteudoEducacional()
+//        ){
+//            inscrever(conteudo);
+//        }
+        // Usando os strems em java
+        bootCamp.getListaConteudoEducacional().stream().forEach(this::inscrever);
+        bootCamp.getDevsInscritos().add(this);
 
 
     }
