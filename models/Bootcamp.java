@@ -1,14 +1,15 @@
 package models;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Bootcamp {
     private String nome;
     private LocalDate dataInicio;
     private LocalDate dataFim;
-    private List<Conteudo> listaConteudoEducacional;
-    private List<Dev> devsInscritos;
+    private List<Conteudo> listaConteudoEducacional=new ArrayList<Conteudo>();
+    private List<Dev> devsInscritos=new ArrayList<>();
 
     public String getNome() {
         return nome;

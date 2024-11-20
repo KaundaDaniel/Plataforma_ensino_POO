@@ -1,14 +1,11 @@
-import models.Bootcamp;
-import models.Conteudo;
-import models.Curso;
-import models.Mentoria;
+import models.*;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.List;
 
-public class OlaMundo {
+public class Main {
     public static void main(String[] args) {
         //Curso de JavaScript
         Curso javaScript= new Curso();
@@ -47,5 +44,12 @@ public class OlaMundo {
         bootcamp.setDataFim(LocalDate.of(2022, 6, 30));
         List<Conteudo> listaConteudo= Arrays.asList(java, javaScript, goLang, ruby, mentoria);
         bootcamp.setListaConteudoEducacional(listaConteudo);
+
+        Dev dev1 = new Dev("Kaunda");
+        Dev dev2 = new Dev("João");
+        dev1.inscrever(java);
+        dev1.inscrever(java);
+
+
     }
 }
