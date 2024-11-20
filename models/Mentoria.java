@@ -8,6 +8,9 @@ public class Mentoria extends  Conteudo {
     public Mentoria(String titulo, String descricao, LocalDateTime data) {
         this.data = data;
     }
+    public Mentoria(){
+
+    }
 
 
     public void setData(LocalDateTime data) {
