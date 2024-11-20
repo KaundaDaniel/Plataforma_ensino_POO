@@ -2,6 +2,7 @@ package models;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class Dev {
     private String nome;
@@ -42,19 +43,15 @@ public class Dev {
         this.nome = nome;
     }
 
-    public List<Conteudo> getListaConteudoIncrito() {
-        return listaConteudoInscrito;
-    }
 
-    public void setListaConteudoIncrito(List<Conteudo> listaConteudoIncrito) {
-        this.listaConteudoInscrito = listaConteudoIncrito;
-    }
 
-    public List<Conteudo> getListaConteudoConcluido() {
-        return listaConteudoConcluido;
-    }
-
-    public void setListaConteudoConcluido(List<Conteudo> listaConteudoConcluido) {
-        this.listaConteudoConcluido = listaConteudoConcluido;
+    public void progredir(){
+        Optional<Conteudo> conteudo=listaConteudoInscrito.stream().findFirst();
+        if(conteudo.isPresent()){
+            listaConteudoConcluido.add(conteudo.get());
+            listaConteudoInscrito.remove(conteudo.get());
+        }else {
+            System.err.println("Voce não terminou nenhum curso!");
+        }
     }
 }

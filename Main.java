@@ -49,6 +49,8 @@ public class Main {
         Dev dev2 = new Dev("João");
         dev1.inscrever(java);
         dev1.inscrever(bootcamp);
+        dev1.progredir();
+        dev1.progredir();
 
 
 
