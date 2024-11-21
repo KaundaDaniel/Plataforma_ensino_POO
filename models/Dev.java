@@ -53,5 +53,11 @@ public class Dev {
         }else {
             System.err.println("Voce não terminou nenhum curso!");
         }
+
+    }
+
+    public double calcularXP(){
+        double xpGanho=listaConteudoConcluido.stream().mapToDouble(Conteudo::calcularXp).sum();
+        return xpGanho;
     }
 }
